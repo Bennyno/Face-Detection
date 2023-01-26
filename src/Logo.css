@@ -1,0 +1,15 @@
+.logo { 
+    width: 150px;
+    height: 150px;
+} 
+
+/* div.br2.shadow-2.ma4.mt0 {
+    width: 150px;
+    height: 150px;
+} */
+
+.brain {
+    background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%);
+    width: 150px;
+    height: 150px;
+}
