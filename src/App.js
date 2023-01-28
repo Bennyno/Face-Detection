@@ -11,7 +11,7 @@ import ImageLinkForm from "./components/ImageLinkForm";
 import "./App.css";
 
 const app = new Clarifai.App({
-  apiKey: "52bdfb50404f497a89ffddebd79aee3f",
+  apiKey: process.env.CLARIFAI_API
 });
 
 const initialState = {
