@@ -25,7 +25,7 @@ class Register extends React.Component {
   } 
 
   onSubmitSignIn = () =>{
-    fetch('https://face-detection-backend.herokuapp.com/register', {
+    fetch('https://elegant-narwhal-1f262a.netlify.app/register', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
